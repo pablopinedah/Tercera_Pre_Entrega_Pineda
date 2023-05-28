@@ -1,0 +1,12 @@
+{% extends 'home/base.html' %}
+
+{% block contenido %}
+    <h1>Datos Cliente</h1>
+
+    <form action="" method="post" >
+        {% csrf_token %}
+        {{ form.as_p}}
+        <input type="submit" value="Datos Cliente">
+    </form>
+
+{% endblock contenido %}
