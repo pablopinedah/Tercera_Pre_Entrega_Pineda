@@ -25,4 +25,4 @@ class Alcance2(models.Model):
     mes = models.CharField(max_length=20)
     
     def __str__(self):
-        return self.consumo_energia_electrica  
+        return str(self.consumo_energia_electrica)  
