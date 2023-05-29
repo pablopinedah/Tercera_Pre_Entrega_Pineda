@@ -2,6 +2,9 @@
 from django.urls import path
 from . import views
 
+#app_name = "home" #se agrega para moverse
+
+
 urlpatterns = [
     path('', views.index, name="index"),
     path('crear-cliente/', views.crear_cliente, name="crear-cliente"),
