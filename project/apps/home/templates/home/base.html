@@ -15,7 +15,14 @@
     {% block contenido %}
         
     {% endblock contenido %}
-    <a href="{% url 'crear-cliente' %}">Ir a Clientes</a>
+    <br>
+    <a href="{% url 'home:crear-cliente' %}">Ir a Clientes</a>
+    <br>
+    <a href="{% url 'home:crear-alcance1' %}">Ir a Alcance 1: Emisiones directas de GEI</a>
+    <br>
+    <a href="{% url 'home:crear-alcance2' %}">Ir a Alcance 2: Emisiones indirectas de GEI asociadas a la electricidad</a>
+    <br>
+    <br>
 
     {% include 'home/footer.html' %}
 
